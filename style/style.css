@@ -18,3 +18,9 @@ p {
   color: white;
   text-align: center;
 }
+h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+}
