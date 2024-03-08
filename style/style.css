@@ -49,6 +49,10 @@ p {
   margin: 0;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .hero {
   background-color: #f9f7fe;
   text-align: center;
@@ -126,6 +130,42 @@ img {
   border-radius: 10px;
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 30px;
+}
+
+footer .email-link {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: #6c63ff;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -138,6 +178,10 @@ img {
 
   h2 {
     font-size: 38px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
   .hero {
     padding: 20px 20px;
