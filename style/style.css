@@ -101,7 +101,7 @@ p {
 }
 
 .content-container h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 2;
 }
 .content-container h2 {
@@ -172,12 +172,12 @@ footer .social-links a:hover {
     text-align: center;
   }
   h1 {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 38px;
+    font-size: 20px;
   }
 
   h4 {
